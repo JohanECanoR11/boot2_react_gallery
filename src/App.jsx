@@ -15,13 +15,16 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <div>
+          <h1 id='title' className='text-center my-3'>Proyecto Galería</h1>
+        </div>
         <Routes>
-          <Route path='/orquidea1' element={<Orquidea1 />} />
-          <Route path='/orquidea2' element={<Orquidea2 />} />
-          <Route path='/orquidea3' element={<Orquidea3 />} />
-          <Route path='/orquidea4' element={<Orquidea4 />} />
-          <Route path='/orquidea5' element={<Orquidea5 />} />
-          <Route path='/orquidea6' element={<Orquidea6 />} />
+          <Route path='/orquidea1' element={<Orquidea1 className='image-size' />} />
+          <Route path='/orquidea2' element={<Orquidea2 className='image-size' />} />
+          <Route path='/orquidea3' element={<Orquidea3 className='image-size' />} />
+          <Route path='/orquidea4' element={<Orquidea4 className='image-size' />} />
+          <Route path='/orquidea5' element={<Orquidea5 className='image-size' />} />
+          <Route path='/orquidea6' element={<Orquidea6 className='image-size' />} />
         </Routes>
         <Navigation />
       </BrowserRouter>

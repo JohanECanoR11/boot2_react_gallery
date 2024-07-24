@@ -8,41 +8,41 @@ import { Orquidea6 } from "./Orquidea6";
 
 export const Navigation = () => {
   return (
-    <div>
-        <Link to="/orquidea1">
-          <figure>
+    <div className="container mt-4 father">
+        <Link to="/orquidea1" className="links">
+          <figure className="image-size">
             <Orquidea1 />
-            <figcaption>Orquídea 1</figcaption>
+            <figcaption>Orquídea Calanthe</figcaption>
           </figure>
         </Link>
-        <Link to="/orquidea2">
-          <figure>
+        <Link to="/orquidea2" className="links">
+          <figure className="image-size">
             <Orquidea2 />
-            <figcaption>Orquídea 2</figcaption>
+            <figcaption>Orquídea Cattleya</figcaption>
           </figure>
         </Link>
-        <Link to="/orquidea3">
-          <figure>
+        <Link to="/orquidea3" className="links">
+          <figure className="image-size">
             <Orquidea3 />
-            <figcaption>Orquídea 3</figcaption>
+            <figcaption>Orquídea Cymbidium</figcaption>
           </figure>
         </Link>
-        <Link to="/orquidea4">
-          <figure>
+        <Link to="/orquidea4" className="links">
+          <figure className="image-size">
             <Orquidea4 />
-            <figcaption>Orquídea 4</figcaption>
+            <figcaption>Orquídea Masdevallia</figcaption>
           </figure>
         </Link>
-        <Link to="/orquidea5">
-          <figure>
+        <Link to="/orquidea5" className="links">
+          <figure className="image-size">
             <Orquidea5 />
-            <figcaption>Orquídea 5</figcaption>
+            <figcaption>Orquídea Aerangis</figcaption>
           </figure>
         </Link>
-        <Link to="/orquidea6">
-          <figure>
+        <Link to="/orquidea6" className="links">
+          <figure className="image-size">
             <Orquidea6 />
-            <figcaption>Orquídea 6</figcaption>
+            <figcaption>Orquídea Dendrobium</figcaption>
           </figure>
         </Link>
     </div>

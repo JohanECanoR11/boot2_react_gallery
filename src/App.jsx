@@ -1,4 +1,5 @@
 import './App.css'
+import { Navigation } from './components/Navigation';
 import { Orquidea1 } from './components/Orquidea1';
 import { Orquidea2 } from './components/Orquidea2';
 import { Orquidea3 } from './components/Orquidea3';
@@ -21,7 +22,8 @@ function App() {
           <Route path='/orquidea4' element={<Orquidea4 />} />
           <Route path='/orquidea5' element={<Orquidea5 />} />
           <Route path='/orquidea6' element={<Orquidea6 />} />
-        </Routes>  
+        </Routes>
+        <Navigation />
       </BrowserRouter>
     </>
   )
